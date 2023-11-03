@@ -1,3 +1,24 @@
-body{
+.alert-info {
+    text-align: center;
+    background-color: #ccffff;
+    padding: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
     background-color: brown;
 }
+
+    @media screen and (min-width: 576px) {
+        body {
+            background-color: blue;
+    }
+        .header-img {
+            width: 50%;
+        }
+}
+
