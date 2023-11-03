@@ -7,6 +7,8 @@
 h1 {
     text-align: center;
     font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -14,12 +16,28 @@ h1 {
         width: 100%;
     }
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.nav-links li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
     list-style: none;
     padding: 1em;
+    border: 2px;
+    background: lightgrey;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.sub-section {
+    font-style: italic;
 }
 
 
