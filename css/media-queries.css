@@ -83,16 +83,17 @@ h1 {
     .header-img img {
        width: 100%;
     }
-    footer p {
-        position: fixed;
-        bottom: 1em;
-        left: 1em;
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: flex-end;
+        width: 100%;
+        min-height: 9em;
+        bottom: 0;
     }
-    #social-media-links {
-        position: fixed;
-        bottom: 1em;
-        right: 1em;
-    }
+
+
 }
 
 
