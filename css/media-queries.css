@@ -40,4 +40,31 @@ h1 {
     font-style: italic;
 }
 
+@media screen and (min-width: 992px){
+    .alert-info{
+        display: none;
+    }
+    h1{
+       position: absolute;
+        top: 0;
+        left: 0.5em;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+    .nav-links li{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: initial;
+    }
+    .main .sub-section{
+        display: flex;
+        flex-direction: row;
+       align-content: flex-start;
+    }
+}
+
 
