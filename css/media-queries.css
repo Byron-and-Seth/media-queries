@@ -60,10 +60,22 @@ h1 {
         background-color: white;
         padding: initial;
     }
-    .main .sub-section{
-        display: flex;
-        flex-direction: row;
-       align-content: flex-start;
+    .main {
+        float: left;
+        width: 50%;
+        margin-bottom: 10em;
+    }
+
+    .sub-section {
+        float: right;
+        width: 50%;
+        margin-bottom: 10em;
+    }
+    .header-img img {
+       width: 100%;
+    }
+
+    #social-media-links {
     }
 }
 
